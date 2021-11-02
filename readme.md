@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/exp.png" width="100%">
+  <img alt="dev.finances" src=".github/exp.png" width="30%">
 </p>
 
 ## 💻 Tecnologias
@@ -25,7 +25,7 @@ O brinquedo buscava estimular a memorização de cores e sons. Com um formato se
 
 ## 📡 Connected
 
-Você pode utilizar/testar o projeto através [desse link]()
+Você pode utilizar/testar o projeto através [desse link](https://tmz81.github.io/Bootcamp-Eduzz-Fullstack-Dev/)
 
 ## :memo: Licença
 
