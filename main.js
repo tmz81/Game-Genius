@@ -15,7 +15,7 @@ const Genius = {
     this.contagemDeRodadas = 0;
     this.gameOver = false;
     this.sequencia = [];
-    this.botaoDePlay.innerHTML = "Recomeçar";
+    this.botaoDePlay.innerHTML = "Restart";
     this.escrever("Genius!");
     this.habilitarBotoes();
     this.novaRodada();
@@ -37,7 +37,7 @@ const Genius = {
 
     this.sequenciaDoJogador.forEach((jogada, index) => {
       if (jogada != this.sequencia[index]) {
-        this.finalizarJogo("Você Perdeu!");
+        this.finalizarJogo("You Lose!");
       }
     });
 
@@ -45,7 +45,7 @@ const Genius = {
 
     if (this.sequenciaDoJogador.length == this.sequencia.length) {
       if (this.contagemDeRodadas >= this.limiteDeRodadas) {
-        this.finalizarJogo("Você Ganhou!");
+        this.finalizarJogo("You Win!");
       } else {
         this.novaRodada();
       }
