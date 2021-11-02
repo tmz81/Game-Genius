@@ -8,13 +8,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Genius</h1>
-  <div class="container">
-  <div class="red"></div>
-  <div class="green"></div>
-  <div class="blue"></div>
-  <div class="yellow"></div>
-</div>
-<script src="main.js"></script>
+  <div id="root">
+    <div class="centralizadora">
+      <div id="buttons">
+        <button id="green"></button>
+        <button id="red"></button>
+        <button id="yellow"></button>
+        <button id="blue"></button>
+
+        <div id="controls">
+          <h1 id="titulo">Genius</h1>
+          <button>Start</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.5.43/Tone.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
