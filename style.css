@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding-top: 2%;
+  background-color: rgb(208, 255, 239);
+  background-image: url('') cover;
+}
+
+.main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 450px;
+  width: 800px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-areas: 'red green blue yellow';
+  grid-gap: 10px;
+  border: 1px solid #ffff;
+  border-radius: 100%;
+}
