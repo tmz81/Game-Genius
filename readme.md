@@ -23,9 +23,14 @@ Genius era um brinquedo muito popular na década de 1980 distribuído pela Brinq
 
 O brinquedo buscava estimular a memorização de cores e sons. Com um formato semelhante a um OVNI, possuía botões coloridos que emitiam sons harmônicos e se iluminavam em seqüência. Cabia aos jogadores repetir o processo sem errar.
 
-## 📡 Connected
+## 🏃 Rodando a aplicação
 
-Você pode utilizar/testar o projeto através [desse link](https://tmz81.github.io/Bootcamp-Eduzz-Fullstack-Dev/)
+Abra no Visual Studio Code e execute os seguintes comandos no terminal:
+
+```bash
+yarn
+yarn start
+```
 
 ## :memo: Licença
 
